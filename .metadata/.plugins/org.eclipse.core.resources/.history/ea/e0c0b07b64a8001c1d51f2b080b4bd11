@@ -1,0 +1,6 @@
+package week03Prac;
+
+public class Snippet {
+	python --version Python 3.95
+}
+
