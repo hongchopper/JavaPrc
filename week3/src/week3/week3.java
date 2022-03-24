@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class week03Prac {
+public class week3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -118,30 +118,19 @@ public class week03Prac {
 		System.out.println("정답입니다! 시도횟수는 총 "+i+"번 입니다.");
 		*/
 		
-		/*예제 9
-		System.out.print("점수를 입력하세요 : ");
-		Scanner scn = new Scanner(System.in);
-		int score = scn.nextInt();
-		int i = 0;
-		int sum = 0;
+		int score=0;
+		int sum=0;
+		int i=0;
 		
-		while(score>0) {
+		while (score > 0) {
+			System.out.print("점수를 입력하세요 : ");
+			Scanner scn = new Scanner(System.in);
+			score = scn.nextInt();
 			sum+=score;
 			i++;
-			System.out.print("점수를 입력하세요 : ");
-			score = scn.nextInt();
-		};
-		System.out.println("평균 점수는 "+sum/i+"입니다.");
-		*/
-		
-		/*예제 10
-		int sum =0;
-		for(int i=1; i<=100;i++) {
-			if(i%2!=0) continue;
-			sum += i;
 		}
-		System.out.print(sum);
-		*/
+		System.out.println("평균 점수는 "+sum/i+"입니다.");
+		
 		//scn.close();	//스캐너 닫기
 	}
 
