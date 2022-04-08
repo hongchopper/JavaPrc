@@ -8,21 +8,21 @@ public class week04Prac { //Book이름대신
 	}
 	
 	public week04Prac(String t) {
-		t=title;
+		title=t;
 		author="작자미상";
 	}
 	
 	public week04Prac(String t, String a) {
-		t=title;
-		a=author;
+		title=t;
+		author=a;
 	}
 	
-	public static void main() {
+	public static void main(String args[]) {
 		week04Prac noTitle = new week04Prac();
 		week04Prac littlePrince = new week04Prac("어린왕자","생텍쥐페리");
 		week04Prac loveStory = new week04Prac("춘향전");
-		System.out.println(noTitle+""+noTitle.author);
-		System.out.println(littlePrince+""+littlePrince.author);
-		System.out.println(loveStory+""+loveStory.author);
+		System.out.println(noTitle.title+" "+noTitle.author);
+		System.out.println(littlePrince.title+" "+littlePrince.author);
+		System.out.println(loveStory.title+" "+loveStory.author);
 	}
 }
